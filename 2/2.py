@@ -1,5 +1,5 @@
 sum = 0;
-with open("2") as f:
+with open("../input_files/2") as f:
     for line in f:
         line = line.replace('\t', " ")
         numbers = line.split(" ")

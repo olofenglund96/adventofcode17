@@ -1,6 +1,6 @@
 sum = 0;
 input = "";
-with open("1") as f:
+with open("../input_files/1") as f:
     for c in f:
         input += c;
 
